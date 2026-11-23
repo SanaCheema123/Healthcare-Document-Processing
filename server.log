@@ -1,0 +1,42 @@
+INFO:     127.0.0.1:59757 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59762 - "GET /health HTTP/1.1" 200 OK
+{"ts": "2026-11-22T17:00:14.039757+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "4f517ad0-ce4d-4dc5-a697-4a75641ddeec", "stage": "ocr", "duration_ms": 0.1}
+{"ts": "2026-11-22T17:00:14.039757+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "4f517ad0-ce4d-4dc5-a697-4a75641ddeec", "stage": "classify", "duration_ms": 0.1}
+{"ts": "2026-11-22T17:00:14.057270+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "4f517ad0-ce4d-4dc5-a697-4a75641ddeec", "stage": "extract", "duration_ms": 15.1}
+{"ts": "2026-11-22T17:00:14.057270+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "4f517ad0-ce4d-4dc5-a697-4a75641ddeec", "stage": "score", "duration_ms": 1.3}
+INFO:     127.0.0.1:59762 - "POST /v1/documents/sync HTTP/1.1" 200 OK
+{"ts": "2026-11-22T17:00:14.074156+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "d9a98f56-689f-4e2f-8b03-644badd7e3a8", "stage": "ocr", "duration_ms": 0.1}
+{"ts": "2026-11-22T17:00:14.074156+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "d9a98f56-689f-4e2f-8b03-644badd7e3a8", "stage": "classify", "duration_ms": 0.1}
+{"ts": "2026-11-22T17:00:14.074156+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "d9a98f56-689f-4e2f-8b03-644badd7e3a8", "stage": "extract", "duration_ms": 9.8}
+{"ts": "2026-11-22T17:00:14.074156+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "d9a98f56-689f-4e2f-8b03-644badd7e3a8", "stage": "score", "duration_ms": 1.0}
+INFO:     127.0.0.1:59762 - "POST /v1/documents/sync HTTP/1.1" 200 OK
+{"ts": "2026-11-22T17:00:14.095482+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "9a668985-f748-4036-8b79-2ed9fa51dff8", "stage": "ocr", "duration_ms": 0.0}
+{"ts": "2026-11-22T17:00:14.095482+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "9a668985-f748-4036-8b79-2ed9fa51dff8", "stage": "classify", "duration_ms": 0.1}
+{"ts": "2026-11-22T17:00:14.106471+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "9a668985-f748-4036-8b79-2ed9fa51dff8", "stage": "extract", "duration_ms": 10.0}
+{"ts": "2026-11-22T17:00:14.107482+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "9a668985-f748-4036-8b79-2ed9fa51dff8", "stage": "score", "duration_ms": 0.7}
+INFO:     127.0.0.1:59762 - "POST /v1/documents/sync HTTP/1.1" 200 OK
+{"ts": "2026-11-22T17:00:14.115050+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "23a19aec-59b8-4c86-889a-d1b9a58ac981", "stage": "ocr", "duration_ms": 0.1}
+{"ts": "2026-11-22T17:00:14.115050+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "23a19aec-59b8-4c86-889a-d1b9a58ac981", "stage": "classify", "duration_ms": 0.1}
+{"ts": "2026-11-22T17:00:14.125054+00:00", "level": "INFO", "logger": "app.extraction.extractor", "msg": "domain validation failed (attempt 1): 3 errors, retrying"}
+{"ts": "2026-11-22T17:00:14.132910+00:00", "level": "INFO", "logger": "app.extraction.extractor", "msg": "domain validation failed (attempt 2): 3 errors, retrying"}
+{"ts": "2026-11-22T17:00:14.140810+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "23a19aec-59b8-4c86-889a-d1b9a58ac981", "stage": "extract", "duration_ms": 24.8}
+{"ts": "2026-11-22T17:00:14.142810+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "23a19aec-59b8-4c86-889a-d1b9a58ac981", "stage": "score", "duration_ms": 0.8}
+INFO:     127.0.0.1:59762 - "POST /v1/documents/sync HTTP/1.1" 200 OK
+{"ts": "2026-11-22T17:00:14.143674+00:00", "level": "INFO", "logger": "app.ocr.factory", "msg": "text layer unavailable, using OCR engine: text layer not available for image/png"}
+{"ts": "2026-11-22T17:00:14.977822+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "dd290a16-eed7-48b4-8a6b-3c8fe3fbc6fb", "stage": "ocr", "duration_ms": 830.4}
+{"ts": "2026-11-22T17:00:14.977822+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "dd290a16-eed7-48b4-8a6b-3c8fe3fbc6fb", "stage": "classify", "duration_ms": 0.2}
+{"ts": "2026-11-22T17:00:14.989638+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "dd290a16-eed7-48b4-8a6b-3c8fe3fbc6fb", "stage": "extract", "duration_ms": 9.4}
+{"ts": "2026-11-22T17:00:14.989638+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "dd290a16-eed7-48b4-8a6b-3c8fe3fbc6fb", "stage": "score", "duration_ms": 0.8}
+INFO:     127.0.0.1:59762 - "POST /v1/documents/sync HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59762 - "POST /v1/documents HTTP/1.1" 202 Accepted
+{"ts": "2026-11-22T17:00:15.011656+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "37f18d7d-5615-4b7d-ae82-cb4bf7b102f1", "stage": "ocr", "duration_ms": 0.1}
+{"ts": "2026-11-22T17:00:15.012664+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "37f18d7d-5615-4b7d-ae82-cb4bf7b102f1", "stage": "classify", "duration_ms": 0.1}
+{"ts": "2026-11-22T17:00:15.014664+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "37f18d7d-5615-4b7d-ae82-cb4bf7b102f1", "stage": "extract", "duration_ms": 7.1}
+{"ts": "2026-11-22T17:00:15.022633+00:00", "level": "INFO", "logger": "app.pipeline.orchestrator", "msg": "stage complete", "document_id": "37f18d7d-5615-4b7d-ae82-cb4bf7b102f1", "stage": "score", "duration_ms": 1.3}
+INFO:     127.0.0.1:59762 - "GET /v1/documents/37f18d7d-5615-4b7d-ae82-cb4bf7b102f1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59762 - "GET /v1/documents/37f18d7d-5615-4b7d-ae82-cb4bf7b102f1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59762 - "GET /v1/documents?status=needs_review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59762 - "POST /v1/documents/23a19aec-59b8-4c86-889a-d1b9a58ac981/review HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:59762 - "POST /v1/documents/23a19aec-59b8-4c86-889a-d1b9a58ac981/review HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59762 - "GET /v1/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59765 - "GET /v1/metrics HTTP/1.1" 401 Unauthorized

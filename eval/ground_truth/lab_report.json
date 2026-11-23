@@ -1,0 +1,72 @@
+{
+  "patient": {
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "date_of_birth": "1985-03-14",
+    "sex": "F",
+    "member_id": null,
+    "mrn": "00482913",
+    "address": null
+  },
+  "ordering_provider": {
+    "name": "Sarah Chen MD",
+    "npi": "1245319599",
+    "tax_id": null,
+    "address": null,
+    "phone": null
+  },
+  "lab_name": "REPORT",
+  "accession_number": "ACC-2026-0045821",
+  "collected_at": "2026-01-15T08:42:00",
+  "reported_at": "2026-01-15T16:10:00",
+  "results": [
+    {
+      "test_name": "Hemoglobin A1c",
+      "loinc_code": null,
+      "value": "7.8",
+      "unit": "%",
+      "reference_range": "4.0-5.6",
+      "flag": "H"
+    },
+    {
+      "test_name": "Glucose, Fasting",
+      "loinc_code": null,
+      "value": "142",
+      "unit": "mg/dL",
+      "reference_range": "70-99",
+      "flag": "H"
+    },
+    {
+      "test_name": "Creatinine",
+      "loinc_code": null,
+      "value": "0.9",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "flag": null
+    },
+    {
+      "test_name": "eGFR",
+      "loinc_code": null,
+      "value": "88",
+      "unit": "mL/min/1.73m2",
+      "reference_range": ">60",
+      "flag": null
+    },
+    {
+      "test_name": "Potassium",
+      "loinc_code": null,
+      "value": "4.2",
+      "unit": "mmol/L",
+      "reference_range": "3.5-5.1",
+      "flag": null
+    },
+    {
+      "test_name": "LDL Cholesterol",
+      "loinc_code": null,
+      "value": "131",
+      "unit": "mg/dL",
+      "reference_range": "<100",
+      "flag": null
+    }
+  ]
+}

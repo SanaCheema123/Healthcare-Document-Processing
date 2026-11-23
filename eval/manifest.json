@@ -1,0 +1,27 @@
+[
+  {
+    "file": "samples/claim_cms1500.txt",
+    "truth": "eval/ground_truth/claim_cms1500.json",
+    "document_type": "cms1500_claim"
+  },
+  {
+    "file": "samples/lab_report.txt",
+    "truth": "eval/ground_truth/lab_report.json",
+    "document_type": "lab_report"
+  },
+  {
+    "file": "samples/prescription.txt",
+    "truth": "eval/ground_truth/prescription.json",
+    "document_type": "prescription"
+  },
+  {
+    "file": "samples/claim_with_errors.txt",
+    "truth": "eval/ground_truth/claim_with_errors.json",
+    "document_type": "cms1500_claim"
+  },
+  {
+    "file": "samples/claim_scanned.png",
+    "truth": "eval/ground_truth/claim_cms1500.json",
+    "document_type": "cms1500_claim"
+  }
+]

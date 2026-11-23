@@ -1,0 +1,21 @@
+HEALTH INSURANCE CLAIM FORM (CMS-1500)
+Insurance Plan: Blue Cross Blue Shield PPO
+Patient Name: DOE, JANE
+Patient DOB: 03/14/1985   Sex: F
+Insured ID: XYZ123456789
+Patient Address: 123 Main St, Springfield, IL 62701
+21. Diagnosis Codes: A. E11.9  B. I10  C. Z79.4
+23. Prior Authorization: PA-55821
+24. SERVICE LINES
+DOS         POS  CPT    MOD  DX   CHARGE    UNITS
+01/15/2026  11   99214  25   AB   $185.00   1
+01/15/2026  11   83036       A    $45.00    1
+01/15/2026  11   36415       A    $12.00    1
+28. Total Charge: $242.00
+29. Amount Paid: $0.00
+Rendering Provider: Sarah Chen MD  NPI: 1245319599
+Billing Provider: Springfield Family Medicine
+Billing Address: 400 Oak Ave, Springfield, IL 62704
+Billing Phone: (217) 555-0142
+Billing NPI: 1306849450
+Federal Tax ID: 12-3456789

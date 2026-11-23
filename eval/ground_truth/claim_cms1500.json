@@ -1,0 +1,65 @@
+{
+  "patient": {
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "date_of_birth": "1985-03-14",
+    "sex": "F",
+    "member_id": "XYZ123456789",
+    "mrn": null,
+    "address": "123 Main St, Springfield, IL 62701"
+  },
+  "insurance_plan": "Blue Cross Blue Shield PPO",
+  "billing_provider": {
+    "name": "Springfield Family Medicine",
+    "npi": "1306849450",
+    "tax_id": "12-3456789",
+    "address": "400 Oak Ave, Springfield, IL 62704",
+    "phone": "(217) 555-0142"
+  },
+  "rendering_provider": {
+    "name": "Sarah Chen MD",
+    "npi": "1245319599",
+    "tax_id": null,
+    "address": null,
+    "phone": null
+  },
+  "diagnosis_codes": [
+    "E11.9",
+    "I10",
+    "Z79.4"
+  ],
+  "service_lines": [
+    {
+      "date_of_service": "2026-01-15",
+      "place_of_service": "11",
+      "cpt_hcpcs": "99214",
+      "modifiers": [
+        "25"
+      ],
+      "diagnosis_pointer": "AB",
+      "charge": "185.00",
+      "units": 1
+    },
+    {
+      "date_of_service": "2026-01-15",
+      "place_of_service": "11",
+      "cpt_hcpcs": "83036",
+      "modifiers": [],
+      "diagnosis_pointer": "A",
+      "charge": "45.00",
+      "units": 1
+    },
+    {
+      "date_of_service": "2026-01-15",
+      "place_of_service": "11",
+      "cpt_hcpcs": "36415",
+      "modifiers": [],
+      "diagnosis_pointer": "A",
+      "charge": "12.00",
+      "units": 1
+    }
+  ],
+  "total_charge": "242.00",
+  "amount_paid": "0.00",
+  "prior_authorization": "PA-55821"
+}

@@ -1,0 +1,41 @@
+{
+  "patient": {
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "date_of_birth": "1985-03-14",
+    "sex": null,
+    "member_id": null,
+    "mrn": null,
+    "address": null
+  },
+  "prescriber": {
+    "name": "Anil Patel MD",
+    "npi": "1508866211",
+    "tax_id": null,
+    "address": null,
+    "phone": "(217) 555-0199"
+  },
+  "dea_number": "AP4815291",
+  "date_written": "2026-01-20",
+  "medications": [
+    {
+      "name": "Metformin",
+      "strength": "500 mg",
+      "dosage_form": "tablet",
+      "sig": "Take 1 tablet by mouth twice daily with meals",
+      "quantity": "60 tablets",
+      "refills": 3,
+      "ndc": "00093-1048-01"
+    },
+    {
+      "name": "Lisinopril",
+      "strength": "10 mg",
+      "dosage_form": "tablet",
+      "sig": "Take 1 tablet by mouth once daily",
+      "quantity": "30 tablets",
+      "refills": 5,
+      "ndc": null
+    }
+  ],
+  "substitution_allowed": true
+}

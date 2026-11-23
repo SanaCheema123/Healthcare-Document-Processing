@@ -1,0 +1,14 @@
+HEALTH INSURANCE CLAIM FORM (CMS-1500)
+Insurance Plan: Aetna Choice POS II
+Patient Name: SMITH, ROBERT
+Patient DOB: 07/02/1958   Sex: M
+Insured ID: W98765432
+21. Diagnosis Codes: A. M54.50  B. 125.10
+24. SERVICE LINES
+DOS         POS  CPT    MOD  DX   CHARGE    UNITS
+02/03/2026  11   97110  GP   AC   $90.00    2
+02/03/2026  11   97140  GP   A    $65.00    1
+28. Total Charge: $175.00
+Billing Provider: Lakeside Physical Therapy
+Billing NPI: 1306849451
+Federal Tax ID: 98-7654321

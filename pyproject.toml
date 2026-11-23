@@ -1,0 +1,17 @@
+[project]
+name = "medextract-ai"
+version = "1.0.0"
+description = "AI-powered healthcare document processing: OCR + LLM extraction, validation and human review"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -p no:logging"
+
+[tool.ruff]
+line-length = 180
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["B008", "E741", "UP042", "B905"]  # FastAPI defaults; short loop vars; str-Enum for py3.11 compat

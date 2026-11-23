@@ -1,0 +1,21 @@
+PRESCRIPTION
+Prescriber: Anil Patel MD  NPI: 1508866211
+Prescriber Phone: (217) 555-0199
+DEA #: AP4815291
+Date Written: 01/20/2026
+
+Patient Name: DOE, JANE
+Patient DOB: 03/14/1985
+
+Rx 1: Metformin 500 mg tablet
+Sig: Take 1 tablet by mouth twice daily with meals
+Qty: 60 tablets
+Refills: 3
+NDC: 00093-1048-01
+
+Rx 2: Lisinopril 10 mg tablet
+Sig: Take 1 tablet by mouth once daily
+Qty: 30 tablets
+Refills: 5
+
+Substitution Permitted: Yes

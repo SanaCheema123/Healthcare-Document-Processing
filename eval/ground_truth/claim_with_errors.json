@@ -1,0 +1,51 @@
+{
+  "patient": {
+    "first_name": "Robert",
+    "last_name": "Smith",
+    "date_of_birth": "1958-07-02",
+    "sex": "M",
+    "member_id": "W98765432",
+    "mrn": null,
+    "address": null
+  },
+  "insurance_plan": "Aetna Choice POS II",
+  "billing_provider": {
+    "name": "Lakeside Physical Therapy",
+    "npi": "1306849451",
+    "tax_id": "98-7654321",
+    "address": null,
+    "phone": null
+  },
+  "rendering_provider": null,
+  "diagnosis_codes": [
+    "M54.50",
+    "I25.10"
+  ],
+  "service_lines": [
+    {
+      "date_of_service": "2026-02-03",
+      "place_of_service": "11",
+      "cpt_hcpcs": "97110",
+      "modifiers": [
+        "GP"
+      ],
+      "diagnosis_pointer": "AC",
+      "charge": "90.00",
+      "units": 2
+    },
+    {
+      "date_of_service": "2026-02-03",
+      "place_of_service": "11",
+      "cpt_hcpcs": "97140",
+      "modifiers": [
+        "GP"
+      ],
+      "diagnosis_pointer": "A",
+      "charge": "65.00",
+      "units": 1
+    }
+  ],
+  "total_charge": "175.00",
+  "amount_paid": null,
+  "prior_authorization": null
+}

@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "llm_provider": "rules",
+    "documents": 5,
+    "classification_accuracy": 1.0,
+    "field_precision": 0.9939,
+    "field_recall": 0.9939,
+    "field_f1": 0.9939,
+    "straight_through_rate": 0.6,
+    "avg_latency_ms": 213.4,
+    "llm_input_tokens": 0,
+    "llm_output_tokens": 0
+  },
+  "documents": [
+    {
+      "file": "samples/claim_cms1500.txt",
+      "type_correct": true,
+      "status": "approved",
+      "confidence": 0.9932,
+      "latency_ms": 9.9,
+      "tp": 39,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mismatched_fields": []
+    },
+    {
+      "file": "samples/lab_report.txt",
+      "type_correct": true,
+      "status": "approved",
+      "confidence": 0.993,
+      "latency_ms": 10.7,
+      "tp": 37,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mismatched_fields": []
+    },
+    {
+      "file": "samples/prescription.txt",
+      "type_correct": true,
+      "status": "approved",
+      "confidence": 0.9901,
+      "latency_ms": 7.6,
+      "tp": 22,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mismatched_fields": []
+    },
+    {
+      "file": "samples/claim_with_errors.txt",
+      "type_correct": true,
+      "status": "needs_review",
+      "confidence": 0.6674,
+      "latency_ms": 18.1,
+      "tp": 26,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mismatched_fields": []
+    },
+    {
+      "file": "samples/claim_scanned.png",
+      "type_correct": true,
+      "status": "needs_review",
+      "confidence": 0.8814,
+      "latency_ms": 1020.6,
+      "tp": 38,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.974,
+      "recall": 0.974,
+      "f1": 0.974,
+      "mismatched_fields": [
+        "rendering_provider.name"
+      ]
+    }
+  ]
+}
