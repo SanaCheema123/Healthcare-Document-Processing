@@ -1,4 +1,5 @@
 # MedExtract AI: Healthcare Document Processing (OCR + LLM)
+[screen-capture (12).webm](https://github.com/user-attachments/assets/6f977052-5124-4651-8c9f-4c2a6c969770)
 
 A production-oriented service that turns healthcare documents (CMS-1500 claims, lab reports, prescriptions) into **validated, structured data**. It combines OCR, schema-constrained LLM extraction, deterministic healthcare validation, hallucination checks and human-in-the-loop review.
 
